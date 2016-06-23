@@ -16,8 +16,8 @@ import { HeroService } from './hero.service';
       </div>
       <button (click)="goBack()">Back</button>
     </div>
-  `
-
+  `,
+  styleUrls: ['app/hero-detail.component.css']
 })
 export class HeroDetailComponent implements OnInit {
   hero: Hero;
